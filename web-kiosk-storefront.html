@@ -1,4 +1,4 @@
 %%[
-  set @cdnScript = RequestParameters("cdnscript")
+  set @cdnScript = RequestParameter("cdnScript")
 ]%%
-<p>%%=v(@cdnScript)=%%</p>
+<p>Your shared the following script: <code>%%=v(@cdnScript)=%%</code></p>
